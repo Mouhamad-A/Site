@@ -4,6 +4,8 @@
 @import url('sections_Vente_voiture.css/header.css');
 @import url('sections_Vente_voiture.css/main.css');
 @import url('sections_Vente_voiture.css/footer.css');
+@import url('Responsive_Vente_voiture.css');
+
 :root{
     --font-family:"Poppins",sans-serif;
     --primary-color: 0,0,0;
