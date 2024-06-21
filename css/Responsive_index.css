@@ -19,7 +19,7 @@
     }
 
     .main__bannière {
-        padding: 20px;
+        padding: 0px;
         width: 100%;
         flex-direction: column;
         gap: 20px;
@@ -110,7 +110,7 @@
         justify-content: center;
     }
     .main__bannière {
-        padding: 15px;
+        padding: 0px;
         width: 100%;
         flex-direction: column;
         gap: 15px;
