@@ -57,14 +57,14 @@
 }
 
 .footer__Adresse {
-    text-align: center; /* Center address text */
+    text-align: center;
 }
 
 .footer__socials {
     width: 100%;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap; /* Allow icons to wrap on smaller screens */
+    flex-wrap: wrap;
 }
 
 .footer__socials-link {

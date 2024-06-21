@@ -40,8 +40,8 @@
 }
 
 .main__hero-button{
-    padding: 20px  0 60px;
-    margin-top:70px ;
+    padding: 20px;
+   
 }
 .button{
     padding: 15px 30px;
@@ -93,4 +93,24 @@
 .bannière-img{
     width:450px;
     height:auto;
+}
+
+.bannière-icon{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.main__bannière-icon{
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.icon-img{
+    width: 40px;
+    height: auto;
 }
