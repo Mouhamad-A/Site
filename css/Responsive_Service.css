@@ -18,26 +18,6 @@
         text-align: center;
     }
 
-    .main__carousel {
-        display: flex;
-        justify-content: space-around;
-        gap: 20px;
-    }
-
-    .carousel__item {
-        flex: 0 0 30%;
-    }
-
-    .carousel__item img {
-        width: 100%;
-        height: auto;
-    }
-
-    .carousel__caption {
-        text-align: center;
-        margin-top: 10px;
-        font-size: 14px;
-    }
 }
 
 
