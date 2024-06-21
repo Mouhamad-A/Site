@@ -5,6 +5,7 @@
 @import url('sections_Qui_somme_nous/main.css');
 @import url('sections_Qui_somme_nous/footer.css');
 :root{
+    
     --font-family:"Poppins",sans-serif;
     --primary-color: 0,0,0;
     --secondary-color: 255,255,255;

@@ -4,6 +4,7 @@
 @import url('sections_Services/header.css');
 @import url('sections_Services/main.css');
 @import url('sections_Services/footer.css');
+@import url('Responsive_Service.css');
 :root{
     --font-family:"Poppins",sans-serif;
     --primary-color: 0,0,0;
