@@ -73,8 +73,8 @@
 }
 
 .main__bannière {
-    padding: 30px;
-    width: 1120px;
+   padding-left: 40px;
+    width: 900px;
     height: auto;
     background-color: rgba(128, 128, 128, 0.1);
     display: flex;
