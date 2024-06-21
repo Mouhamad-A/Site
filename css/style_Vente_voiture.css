@@ -6,6 +6,7 @@
 @import url('sections_Vente_voiture.css/footer.css');
 @import url('Responsive_Vente_voiture.css');
 
+
 :root{
     --font-family:"Poppins",sans-serif;
     --primary-color: 0,0,0;
@@ -19,7 +20,7 @@
     --headline-font-size:52px;
     --headline-font-weight:700;
 
-    --subheadline-font-size:16px;
+    --subheadline-font-size:14px;
     --subheadline-font-weight:400;
 
     --body-font-size:16px;

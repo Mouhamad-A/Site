@@ -18,7 +18,7 @@
 }
 
 .footer__horaire, .footer__contact, .footer__info {
-    margin-bottom: 20px; 
+    margin-bottom: 20px; /* Add some space between elements */
 }
 
 .footer__horaire {

@@ -38,36 +38,6 @@
         margin-top: 10px;
         font-size: 14px;
     }
-
-    /* Testimonials */
-    .main__testimonials {
-        display: flex;
-        justify-content: space-around;
-        gap: 20px;
-    }
-
-    .testimonial {
-        flex: 0 0 45%;
-        padding: 10px;
-    }
-
-    .testimonial p {
-        font-size: 14px;
-    }
-
-    .testimonial__author {
-        font-size: 12px;
-    }
-
-    .main__cta {
-        text-align: center;
-        margin-top: 20px;
-    }
-
-    .cta-button {
-        padding: 10px 20px;
-        font-size: 16px;
-    }
 }
 
 
