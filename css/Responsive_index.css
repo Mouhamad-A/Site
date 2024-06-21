@@ -18,62 +18,42 @@
         text-align: center;
     }
 
-    .main__carousel {
-        display: flex;
-        justify-content: space-around;
-        gap: 20px;
-    }
-
-    .carousel__item {
-        flex: 0 0 30%;
-    }
-
-    .carousel__item img {
+    .main__bannière {
+        padding: 20px;
         width: 100%;
-        height: auto;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
     }
 
-    .carousel__caption {
+    .main__bannière h1 {
         text-align: center;
-        margin-top: 10px;
-        font-size: 14px;
+        font-size: 24px;
     }
 
-    /* Testimonials */
-    .main__testimonials {
-        display: flex;
-        justify-content: space-around;
+    .bannière-img {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .main__bannière-icon {
+        flex-direction: column;
+        gap: 30px;
+        padding-bottom: 50px;
+    }
+
+    .bannière-icon {
+        flex-direction: row;
         gap: 20px;
     }
 
-    .testimonial {
-        flex: 0 0 45%;
-        padding: 10px;
+    .icon-img {
+        width: 30px;
     }
 
-    .testimonial p {
-        font-size: 14px;
-    }
-
-    .testimonial__author {
-        font-size: 12px;
-    }
-
-    .main__cta {
-        text-align: center;
-        margin-top: 20px;
-    }
-
-    .cta-button {
-        padding: 10px 20px;
-        font-size: 16px;
-    }
+   
 }
-
-
-
-
-
 
 
 
@@ -128,6 +108,42 @@
 
     .footer__socials {
         justify-content: center;
+    }
+    .main__bannière {
+        padding: 15px;
+        width: 100%;
+        flex-direction: column;
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main__bannière h1 {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .bannière-img {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .main__bannière-icon {
+        flex-direction: column;
+        align-items: center; /* Align items in the center */
+        gap: 20px;
+        padding-bottom: 20px;
+    }
+
+    .bannière-icon {
+        flex-direction: column;
+        align-items: center; /* Align items in the center */
+        gap: 10px;
+        text-align: center; /* Ensure text is centered */
+    }
+
+    .icon-img {
+        width: 25px;
     }
 }
 
