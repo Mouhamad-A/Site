@@ -16,17 +16,27 @@
             <div class="nav__menu">
                 <ul class="nav__menu__container">
                     <li class="nav__menu-items">Accueil</li>
-                    <li class="nav__menu-items"><a href="Services.html">Services</a></li>
+                    <li class="nav__menu-items"><a href="Services.html">Service</a></li>
                     <li class="nav__menu-items"><a href="Vente_voiture.html">Vente de voiture</a></li>
                     <li class="nav__menu-items"><a href="Qui_somme_nous.html">Qui somme nous ?</a></li>
                     <li class="nav__menu-items"><a href="#footer">Contact</a></li>
                 </ul>
             </div>
-            <div class="nav__mobile-menu">
+            <div class="nav__mobile-menu" id="navMobileMenu">
                 <img class="img-menu" src="assets/menu.svg" alt="Menu">
             </div>
         </nav>
     </header>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="mobile-menu__close" id="mobileMenuClose">&times;</button>
+           <nav class="mobile-menu__nav">
+                <p class="mobile-p">Accueil</p>
+                <p class="mobile-p"><a href="Services.html">Services</a></p>
+                <p class="mobile-p"><a href="Vente_voiture.html">Vente Voiture</a></p>
+                <p class="mobile-p"><a href="Qui_somme_nous.html">Qui somme nous ?</a></p>
+           </nav>
+    </div>
 
     <main class="main">
        <div class="main__container">
@@ -34,7 +44,7 @@
                 <h1 class="main__hero-title">Carrosserie, Tôlerie, Peinture : <br>L'art de redonner vie à votre voiture</h1>
             </div>
             <div class="main__hero-button">
-                <a href="Services.html"><button class="button">Découvrer nos services </button></a>
+                <a href="Services.html"><button class="button">Découvrez nos services </button></a>
             </div>
             
             <div class="main__bannière">
@@ -108,5 +118,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
